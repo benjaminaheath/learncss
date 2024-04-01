@@ -1,0 +1,91 @@
+h2:hover {
+	color: red;
+}
+
+h2[class=subtitle] {
+	color: blue;
+}
+
+#services {
+	color: green;
+}
+
+/*li:only-child {
+	color: purple;
+}*/
+
+td:only-child {
+	color: purple;
+}
+
+/*#google-link:link {
+	color: blue;
+}
+
+#google-link:visited {
+	color: red;
+}*/
+
+h2 + a {
+	color: red;
+}
+
+textarea ~ button {
+	color: purple;
+} 
+
+ul > li {
+	color: blue;
+}
+
+ul li {
+	color: green;
+}
+
+
+img[src*="../img/"] {
+	border: 10px solid black;
+}
+
+h2[class|=article-subtitle] {
+	background: green;
+}
+
+td:nth-child(2) {
+	color: red;
+}
+
+form {
+	/* border */
+	border: 1px solid black;
+	border-style: solid;
+	border-color: black;
+}
+
+table td {
+	font-size: large;
+}
+
+tr > td:first-child {
+	color: green
+}
+
+tr > td:last-child {
+	color: orange;
+}
+
+h1 + p {
+	font-style: italic;
+}
+
+h1 ~ p {
+	font-weight: 1000;
+}
+
+p[class^=article-title] {
+	color:blue
+}
+
+p[class|=article] {
+	font-size: large;
+}
